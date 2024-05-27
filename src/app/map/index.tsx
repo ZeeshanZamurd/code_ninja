@@ -66,7 +66,7 @@ const MapPage: React.FC = () => {
 
   return (
     <div className="map-container relative">
-      <LoadScript googleMapsApiKey="AIzaSyDWNtFs8Gbg7w7uy82SlU4gzmjS6IErBLA" >
+      <LoadScript googleMapsApiKey="GOOGLE_API_KEU" >
         <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
           {markers.map((marker, index) => (
             <Marker 
